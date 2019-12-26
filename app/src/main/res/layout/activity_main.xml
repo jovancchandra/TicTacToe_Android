@@ -15,15 +15,17 @@
             android:id="@+id/text_view_player"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:freezesText="true"
             android:text="YOU: 0"
-            android:textSize="30sp"
-            android:freezesText="true"/>
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/text_view_bot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_view_player"
+            android:layout_marginLeft="10dp"
             android:text="BOT: 0"
             android:textSize="30sp"
             android:freezesText="true"/>
