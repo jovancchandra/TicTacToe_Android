@@ -72,10 +72,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int start = rand.nextInt(2);    //Generates either 0 or 1;
 
         if (start == 0) {   //If the BOT starts first, call the BOT's algorithm before user input (clicking a button)
-            Toast.makeText(this, "BOT Starts", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "BOT Starts", Toast.LENGTH_SHORT).show();
             botMove();
         } else {
-            Toast.makeText(this, "You have the first move!", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "You have the first move!", Toast.LENGTH_SHORT).show();
         }
     }
 
